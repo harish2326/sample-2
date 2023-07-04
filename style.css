@@ -292,7 +292,9 @@ body {
   .container{
     width: 100%;
   }
-  .container3{
+  .container2{
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
