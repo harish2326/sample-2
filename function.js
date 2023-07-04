@@ -5,3 +5,4 @@ function addMem(){
    num+=1;
    member.textContent=num;
 }
+console.log("Hello world");
