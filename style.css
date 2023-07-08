@@ -83,6 +83,7 @@ button.join-btn:hover {
   width: fit-content;
   margin: 0;
   display: flex;
+  padding: 2rem;
 }
 p {
   /* margin-top: 1rem;
@@ -276,6 +277,14 @@ body {
     width: fit-content;
     height: fit-content;
 }
+footer{
+  width: 100%;
+  height: 1.8rem;
+ }
+ footer p{
+  padding-bottom: 3rem;
+  padding-top: 0;
+ }
 }
 @media (max-width: 1200px){
 .container3{
@@ -291,19 +300,25 @@ body {
   }
   .container{
     width: 100%;
+    
   }
-
   .container2{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;                                                   
+    justify-content: center;
     align-items: center;
   }
-  h2{
-    text-align: center;
-    align-items: center;
-  }
-  /* dbcudgciuekjbciuhde */
-
-  }
+ h2{
+  display: flex;
+  align-items: center;
+ }
+ footer{
+  width: 100%;
+  height: 1.8rem;
+ }
+ footer p{
+  padding-bottom: 3rem;
+  padding-top: 0;
+ }
+}
