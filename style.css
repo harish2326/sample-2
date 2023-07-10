@@ -59,7 +59,7 @@ button {
 .btns {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 button.more-btn {
   margin-left: 2rem;
@@ -135,16 +135,14 @@ span {
   width: 20%;
   display: flex;
   flex-wrap: wrap;
-  padding: 40px;
-  margin-left: 50px;
   border-radius: 15px;
   justify-content: center;
   background-color: #1feb2d;
   transition: 0.3s ease-in-out;
-  margin-top: 30px;
-  flex-direction: column;
-  justify-content: center;
+    flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 60px;
   margin: 0;
 }
 .container3 .box:hover {
